@@ -8,6 +8,8 @@ The ANPR system was designed to automatically identify and read license plates f
 
 We used the YOLO v5 model for object detection, specifically for locating the license plates in images. For Optical Character Recognition (OCR), we designed a custom Convolutional Neural Network (CNN) model that was trained to recognize and interpret the alphanumeric characters on license plates.
 
+![YOLO model](Licence_Plate_Number_Detection-using-yolov5/model.png)
+
 ## Deployment
 The entire ANPR system was deployed on Azure Cloud. This allowed us to leverage the scalability and flexibility of cloud computing, ensuring that our system could handle a large number of requests efficiently.
 
